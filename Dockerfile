@@ -22,4 +22,3 @@ COPY . /app
 # --cors "*": 모든 CORS 허용 (개발 단계에서만 사용 권장)
 # --debug: 디버그 모드 (로그 상세화)
 # --endpoints endpoints.yml: 액션 서버 등 외부 서비스 연결 설정
-CMD ["rasa", "run", "--enable-api", "--model", "/app/models", "--port", "5005", "--cors", "*", "--debug", "--endpoints", "endpoints.yml"]
