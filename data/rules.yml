@@ -1,0 +1,40 @@
+version: "3.1"
+
+nlu0:
+
+- intent: ask_category_rule
+  examples: |
+    - 가능한 규칙 목록 보여줘
+    - 규칙 카테고리 목록 알려줘
+    - 어떤 규칙들이 있는지 보여줘
+    - 전체 규칙 목록 알려줘
+    - 지금 가능한 규칙 카테고리 알려줘
+
+- intent: greet
+  examples: |
+      - Hi
+      - Hello
+      - Good morning
+      - Hey there
+- intent: goodbye
+  examples: |
+      - Goodbye
+      - Bye
+      - See you later
+- intent: affirm
+  examples: |
+      - Yes
+      - Sure
+      - Absolutely
+- intent: deny
+  examples: |
+      - No
+      - I don't think so
+      - Not really
+
+- intent: ask_csvjson_data
+  examples: |
+    - 기숙사 규칙 알려줘
+    - csvjson 테이블 보여줘
+    - 기숙사 정보 가져와
+
