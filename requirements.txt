@@ -2,4 +2,5 @@ rasa-sdk==3.6.10
 mysql-connector-python
 googletrans==4.0.0rc1
 python-dotenv
+pymysql
 requests
